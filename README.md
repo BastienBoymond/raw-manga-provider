@@ -18,13 +18,13 @@ this will request https://klz9.com/
 if you want to request a manga 
 
 ```bash
-$ node index.js -link https://klz9.com/ybed-amagami-san-chi-no-enmusubi.html
+$ node index.js --link https://klz9.com/ybed-amagami-san-chi-no-enmusubi.html
 ```
 
 if you want to request a manga with a specific chapter
 
 ```bash
-$ node index.js -link https://klz9.com/jxsh-amagami-san-chi-no-enmusubi-chapter-102.html 
+$ node index.js --link https://klz9.com/jxsh-amagami-san-chi-no-enmusubi-chapter-102.html 
 ```
 
 if you want to search for a manga
