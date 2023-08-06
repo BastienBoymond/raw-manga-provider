@@ -21,9 +21,7 @@ export class Searcher {
             return;
         }
         const manga = res[answer]
-        console.log(manga)
         mangaName = manga.onclick.replace("window.location='/ybed-", "").replace(".html'", "")
-        console.log(mangaName)
         const downloader = new Downloader(mangaName)
         await downloader.selectDowloadFormat()
     }

@@ -54,7 +54,9 @@ export class Downloader {
     async downloadFromAChapter(chapter) {
         let chapterlist = await this.klz9.getChapterList(this.mangaName);
         for (let chapt of chapterlist) {
-            if (chapt.chapter >= chapter) {
+            if (chapt.chapter >= parseInt(chapter)) {
+                printString(chapt.chapter + " " + chapter, "1;33")
+
                 await this.getChapter(chapt.chapter, chapt.id)
             }
         }
