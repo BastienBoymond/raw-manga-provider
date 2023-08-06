@@ -1,4 +1,4 @@
-import { printString, question } from "./src/printing.js";
+import { printString } from "./src/printing.js";
 import { findTypeofUrl } from "./src/urlRecognition.js";
 import { Downloader } from "./src/downloader.js";
 import { Searcher } from "./src/searcher.js";
