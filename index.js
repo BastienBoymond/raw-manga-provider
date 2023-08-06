@@ -1,6 +1,3 @@
-
-import getStdin from "get-stdin";
-
 import { printString, question } from "./src/printing.js";
 import { findTypeofUrl } from "./src/urlRecognition.js";
 import { Downloader } from "./src/downloader.js";
